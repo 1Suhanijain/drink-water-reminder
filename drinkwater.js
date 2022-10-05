@@ -21,7 +21,7 @@ function highlightcups(idx) {
     if (index2 <= idx) {
       cup.classList.add("full");
     } else {
-      // cup.classList.remove("full");
+      cup.classList.remove("full");
     }
   });
   updatebigcup();
